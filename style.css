@@ -281,6 +281,26 @@ main {
 }
 
 @media screen and (min-width: 30em) {
+
+    /* Activate states */
+
+    .menu-tabs a:hover {
+        color: var(--soft-orange-color);
+    }
+
+    .section-button:hover {
+        cursor: pointer;
+        background-color: var(--very-dark-blue-color);
+        color: var(--off-white-color);
+    }
+
+    .section-card-txt p:nth-child(2):hover {
+        cursor: pointer;
+        color: var(--soft-red-color);
+    }
+
+    /* Activate states */
+
     nav {
         padding: 5% 10%;
         padding-bottom: 0;
@@ -335,7 +355,7 @@ main {
         padding: 0;
     }
 
-    .section-1 img{
+    .section-1 img {
         height: 25vw;
     }
 
@@ -353,10 +373,10 @@ main {
     .section-1-text-button {
         width: 50%;
         justify-content: space-between;
-        
+
     }
 
-    .section-1-text .section-button{
+    .section-1-text .section-button {
         padding: 1vw 1.5vw;
         font-size: 1vw;
 
@@ -372,7 +392,7 @@ main {
         margin: 0;
     }
 
-    .section-2 h2{
+    .section-2 h2 {
         font-size: 2.5vw;
     }
 
@@ -380,7 +400,7 @@ main {
         font-size: 1.5vw;
     }
 
-    .section-article p{
+    .section-article p {
         font-size: 1vw;
     }
 
